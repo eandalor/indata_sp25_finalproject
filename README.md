@@ -10,7 +10,7 @@ When using Plotly to read in images, the files could not be saved locally and ha
 
 After Milestones #1 and #2, I've realized that my goals for this project were a little too ambitious. I can see the path of getting to a tool that creates camera matches, but there is a lot of work to be put in before I can get there. After Milestone #2, I am excited to have figured out how to tie Colour's built-in plotting functions into Plotly to create interactivity. This method is definitely brute force, but figuring the path out (mostly) on my own is rewarding. After solving this problem, I will be able to dive more into the visualizations & find the best visualizations that allow users to see the differences between cameras, and hopefully, how cameras are ultimately data-capturing tools that are what the end user makes them.
 
-(***)
+***
 
 ## **Final Project Milestone #1**
 
