@@ -1,3 +1,17 @@
+## **Final Project Milestone #2**
+
+April 14, 2025
+
+The goal for the second milestone of the final project was to add interactivity to visualizations and create a camera match.
+
+I spent much more time working on this one interactive visualization than I would like to admit. Colour's built-in plotting functions are wonderful, but making the visualizations from Matplotlib interactive is not particularly intuitive (for obvious reasons). First, I tried assigning variable names to the figures & using Colour's [plot_image function](https://colour.readthedocs.io/en/latest/generated/colour.plotting.plot_image.html#colour.plotting.plot_image) to hopefully not have to download each figure and reference the file path later. After some failed attempts and some Googling, the most recommended path for using Matplotlib figures in Plotly is to download/export the visualizations and then read them as PNGs.
+
+When using Plotly to read in images, the files could not be saved locally and had to be sourced from a URL. Using an example from the [reference page](https://plotly.com/python/images/#zoom-on-static-images) and our [in-class button notes](https://github.com/dataesilva/indata_sp25/blob/main/plotly-buttons-prep.ipynb), I was able to create the buttons and load in each image. When toggling visibility, I tried using *add_layout_image* like it was used on the example page. In order to use the relayout buttons, I needed to use *update_layout*, and I was only able to solve this problem because of ChatGPT.
+
+After Milestones #1 and #2, I've realized that my goals for this project were a little too ambitious. I can see the path of getting to a tool that creates camera matches, but there is a lot of work to be put in before I can get there. After Milestone #2, I am excited to have figured out how to tie Colour's built-in plotting functions into Plotly to create interactivity. This method is definitely brute force, but figuring the path out (mostly) on my own is rewarding. After solving this problem, I will be able to dive more into the visualizations & find the best visualizations that allow users to see the differences between cameras, and hopefully, how cameras are ultimately data-capturing tools that are what the end user makes them.
+
+(***)
+
 ## **Final Project Milestone #1**
 
 April 7, 2025
