@@ -1,3 +1,15 @@
+## **Final Project Milestone #3** ##
+
+April 28, 2025
+
+The original goal for the third milestone of the final project was to create a Dash app that allows users to choose between visualizations and camera matching. It goes without saying, as I have worked on this project and explored Colour, my goals have changed.
+
+Last milestone, I learned how to add interactivity to the figures, and I set a goal to explore the different types of figures that could be generated with Colour’s built-in plotting functions. One of the figures that I find most interesting for the target audience are the spectral distributions in the chromaticity diagram (plot_sds_in_chromaticity_diagram) that shows where the different cameras’ RGB values are in a 2D visualization of a color gamut. By default, it plots RGB values, which is helpful, but I need to figure out how to change the labels of the points to make the visualization make sense. I also found the color swatch plotting (plot_multi_colour_swatches) interesting. If I plug in the RGB values of the dataset, it is the most straightforward way of showing the audience the difference in the resulting color rendition.
+
+I am trying to keep my audience in mind - that of photographers and filmmakers - as I work on this project. All of these diagrams are understandable for professionals in the space. However, if I am trying to target individuals who may not have a solid understanding of color science, then the majority of these visualizations are still not simple enough to show the story of the data. After talking with classmates and exploring Colour, I have realized that the best use of this project is to show the initial steps in *the camera doesn’t matter* journey. I hope to explain that camera sensors capture data, and the images we see are simply how data is interpreted and made available to view. If we can alter the data - if we can move the red, green, and blue points to line up (I am thinking of the chromaticity diagram), then we can alter the final image we see.
+
+***
+
 ## **Final Project Milestone #2**
 
 April 14, 2025
