@@ -1,3 +1,15 @@
+## **Final Project | Submission** ##
+
+May 8, 2025
+
+While this project did not turn out the way I planned, it was fun to explore the tools in the Colour package. If I were to start this project from the beginning, I would likely choose an entirely different idea. The lack of customization in Colour’s plotting features led to hours of frustration and staring at my computer screen. The difficult customization, along with a dataset that wasn’t like the datasets we used in class, made the project less of a demonstration of the skills that I learned throughout this semester than I originally would have hoped.
+
+More than anything, this project has made me more excited to build the tool that I originally outlined in the project plan. However, I do not believe the tool can (or should) be built around Colour. While open source tools like [Colour](https://www.colour-science.org/) and [OpenColourIO](https://opencolorio.org/) provide useful tools, the process will ultimately be dependent on my own abilities & understanding of Python, color science, and data interpolation.
+
+In the end, I hope that this dash app provides a useful understanding of the image data-capturing & presentation process.
+
+***
+
 ## **Final Project Milestone #3** ##
 
 April 28, 2025
